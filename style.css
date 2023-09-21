@@ -102,3 +102,22 @@
     }
 
 }
+
+.sidebar.night{
+    background-color: #312e81;
+    color: #b4bbc7;
+}
+
+.list-item.active.night{
+    border-color: #4338ca;
+}
+
+.sidebar.light{
+    background-color:#f3f4f6 ;
+    columns: #111827;
+}
+
+.list-item.active.light{
+    border-color: #d1d5db;
+    color: #111827;
+}
