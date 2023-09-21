@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sidebar{
@@ -9,4 +10,47 @@
     color: #9ca3af;
     display: flex;
     flex-direction: column;
+}
+
+.sidebar-top,
+.sidebar-center,
+.sidebar-bottom{
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+.sidebar-bottom{
+    border-bottom: none;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.list-item{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    /* background-color: brown; */
+}
+
+.list-item-icon{
+    width: 30px;
 }
